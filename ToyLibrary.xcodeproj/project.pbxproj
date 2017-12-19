@@ -7,25 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98D3005A1FE8D694000AE750 /* ToyLibrary_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300581FE8D694000AE750 /* ToyLibrary_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D300671FE8D6AC000AE750 /* ToyLibrary_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300651FE8D6AC000AE750 /* ToyLibrary_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D300811FE8D6EA000AE750 /* ToyLibrary_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D3007F1FE8D6EA000AE750 /* ToyLibrary_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D3008E1FE8D6FD000AE750 /* ToyLibrary_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D3008C1FE8D6FD000AE750 /* ToyLibrary_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D3009B1FE8D9FE000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D3009C1FE8D9FE000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D3009D1FE8D9FF000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D3009E1FE8D9FF000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		98D300551FE8D694000AE750 /* ToyLibrary_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D300581FE8D694000AE750 /* ToyLibrary_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyLibrary_iOS.h; sourceTree = "<group>"; };
-		98D300591FE8D694000AE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98D300631FE8D6AC000AE750 /* ToyLibrary_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D300651FE8D6AC000AE750 /* ToyLibrary_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyLibrary_watchOS.h; sourceTree = "<group>"; };
-		98D300661FE8D6AC000AE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98D3007D1FE8D6EA000AE750 /* ToyLibrary_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D3007F1FE8D6EA000AE750 /* ToyLibrary_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyLibrary_tvOS.h; sourceTree = "<group>"; };
-		98D300801FE8D6EA000AE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98D3008A1FE8D6FD000AE750 /* ToyLibrary_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D3008C1FE8D6FD000AE750 /* ToyLibrary_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyLibrary_macOS.h; sourceTree = "<group>"; };
-		98D3008D1FE8D6FD000AE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D300551FE8D694000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D300631FE8D6AC000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D3008A1FE8D6FD000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D300991FE8D9EE000AE750 /* ToyLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyLibrary.h; sourceTree = "<group>"; };
+		98D3009A1FE8D9EE000AE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +57,8 @@
 		98D300491FE8D640000AE750 = {
 			isa = PBXGroup;
 			children = (
-				98D300571FE8D694000AE750 /* ToyLibrary iOS */,
-				98D300641FE8D6AC000AE750 /* ToyLibrary watchOS */,
-				98D3007E1FE8D6EA000AE750 /* ToyLibrary tvOS */,
-				98D3008B1FE8D6FD000AE750 /* ToyLibrary macOS */,
+				98D300961FE8D9EE000AE750 /* Sources */,
+				98D300951FE8D9EE000AE750 /* Tests */,
 				98D300561FE8D694000AE750 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,48 +66,44 @@
 		98D300561FE8D694000AE750 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98D300551FE8D694000AE750 /* ToyLibrary_iOS.framework */,
-				98D300631FE8D6AC000AE750 /* ToyLibrary_watchOS.framework */,
-				98D3007D1FE8D6EA000AE750 /* ToyLibrary_tvOS.framework */,
-				98D3008A1FE8D6FD000AE750 /* ToyLibrary_macOS.framework */,
+				98D300551FE8D694000AE750 /* ToyLibrary.framework */,
+				98D300631FE8D6AC000AE750 /* ToyLibrary.framework */,
+				98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */,
+				98D3008A1FE8D6FD000AE750 /* ToyLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98D300571FE8D694000AE750 /* ToyLibrary iOS */ = {
+		98D300951FE8D9EE000AE750 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				98D300581FE8D694000AE750 /* ToyLibrary_iOS.h */,
-				98D300591FE8D694000AE750 /* Info.plist */,
 			);
-			path = "ToyLibrary iOS";
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		98D300641FE8D6AC000AE750 /* ToyLibrary watchOS */ = {
+		98D300961FE8D9EE000AE750 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				98D300651FE8D6AC000AE750 /* ToyLibrary_watchOS.h */,
-				98D300661FE8D6AC000AE750 /* Info.plist */,
+				98D300971FE8D9EE000AE750 /* ToyLibrary */,
 			);
-			path = "ToyLibrary watchOS";
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		98D3007E1FE8D6EA000AE750 /* ToyLibrary tvOS */ = {
+		98D300971FE8D9EE000AE750 /* ToyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				98D3007F1FE8D6EA000AE750 /* ToyLibrary_tvOS.h */,
-				98D300801FE8D6EA000AE750 /* Info.plist */,
+				98D300981FE8D9EE000AE750 /* Supporting Files */,
 			);
-			path = "ToyLibrary tvOS";
+			path = ToyLibrary;
 			sourceTree = "<group>";
 		};
-		98D3008B1FE8D6FD000AE750 /* ToyLibrary macOS */ = {
+		98D300981FE8D9EE000AE750 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				98D3008C1FE8D6FD000AE750 /* ToyLibrary_macOS.h */,
-				98D3008D1FE8D6FD000AE750 /* Info.plist */,
+				98D300991FE8D9EE000AE750 /* ToyLibrary.h */,
+				98D3009A1FE8D9EE000AE750 /* Info.plist */,
 			);
-			path = "ToyLibrary macOS";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D3005A1FE8D694000AE750 /* ToyLibrary_iOS.h in Headers */,
+				98D3009B1FE8D9FE000AE750 /* ToyLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +121,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D300671FE8D6AC000AE750 /* ToyLibrary_watchOS.h in Headers */,
+				98D3009C1FE8D9FE000AE750 /* ToyLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +129,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D300811FE8D6EA000AE750 /* ToyLibrary_tvOS.h in Headers */,
+				98D3009D1FE8D9FF000AE750 /* ToyLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +137,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D3008E1FE8D6FD000AE750 /* ToyLibrary_macOS.h in Headers */,
+				98D3009E1FE8D9FF000AE750 /* ToyLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +159,7 @@
 			);
 			name = "ToyLibrary iOS";
 			productName = "ToyLibrary iOS";
-			productReference = 98D300551FE8D694000AE750 /* ToyLibrary_iOS.framework */;
+			productReference = 98D300551FE8D694000AE750 /* ToyLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98D300621FE8D6AC000AE750 /* ToyLibrary watchOS */ = {
@@ -189,7 +177,7 @@
 			);
 			name = "ToyLibrary watchOS";
 			productName = "ToyLibrary watchOS";
-			productReference = 98D300631FE8D6AC000AE750 /* ToyLibrary_watchOS.framework */;
+			productReference = 98D300631FE8D6AC000AE750 /* ToyLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98D3007C1FE8D6EA000AE750 /* ToyLibrary tvOS */ = {
@@ -207,7 +195,7 @@
 			);
 			name = "ToyLibrary tvOS";
 			productName = "ToyLibrary tvOS";
-			productReference = 98D3007D1FE8D6EA000AE750 /* ToyLibrary_tvOS.framework */;
+			productReference = 98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98D300891FE8D6FD000AE750 /* ToyLibrary macOS */ = {
@@ -225,7 +213,7 @@
 			);
 			name = "ToyLibrary macOS";
 			productName = "ToyLibrary macOS";
-			productReference = 98D3008A1FE8D6FD000AE750 /* ToyLibrary_macOS.framework */;
+			productReference = 98D3008A1FE8D6FD000AE750 /* ToyLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -340,12 +328,14 @@
 		98D3004E1FE8D640000AE750 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_FILE = "";
 			};
 			name = Debug;
 		};
 		98D3004F1FE8D640000AE750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_FILE = "";
 			};
 			name = Release;
 		};
@@ -403,14 +393,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary iOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -470,13 +460,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary iOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -543,13 +533,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary watchOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -611,12 +601,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary watchOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -683,13 +673,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary tvOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -750,12 +740,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary tvOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -824,14 +814,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary macOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -892,13 +882,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "ToyLibrary macOS/Info.plist";
+				INFOPLIST_FILE = "Sources/ToyLibrary/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
