@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98D300541FE8D694000AE750"
-               BuildableName = "ToyLibrary.framework"
-               BlueprintName = "ToyLibrary iOS"
+               BlueprintIdentifier = "98D300BD1FE8DE8B000AE750"
+               BuildableName = "ToyLibraryTests.xctest"
+               BlueprintName = "ToyLibraryTests iOS"
                ReferencedContainer = "container:ToyLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,37 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98D3007C1FE8D6EA000AE750"
-               BuildableName = "ToyLibrary.framework"
-               BlueprintName = "ToyLibrary tvOS"
-               ReferencedContainer = "container:ToyLibrary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98D300621FE8D6AC000AE750"
-               BuildableName = "ToyLibrary.framework"
-               BlueprintName = "ToyLibrary watchOS"
-               ReferencedContainer = "container:ToyLibrary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98D300FF1FE8E30C000AE750"
-               BuildableName = "ToyLibrary_macOS.framework"
-               BlueprintName = "ToyLibrary macOS"
+               BlueprintIdentifier = "98D300CC1FE8DEA5000AE750"
+               BuildableName = "ToyLibraryTests.xctest"
+               BlueprintName = "ToyLibraryTests tvOS"
                ReferencedContainer = "container:ToyLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -75,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98D300541FE8D694000AE750"
-            BuildableName = "ToyLibrary.framework"
-            BlueprintName = "ToyLibrary iOS"
+            BlueprintIdentifier = "98D300BD1FE8DE8B000AE750"
+            BuildableName = "ToyLibraryTests.xctest"
+            BlueprintName = "ToyLibraryTests iOS"
             ReferencedContainer = "container:ToyLibrary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,9 +70,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98D300541FE8D694000AE750"
-            BuildableName = "ToyLibrary.framework"
-            BlueprintName = "ToyLibrary iOS"
+            BlueprintIdentifier = "98D300BD1FE8DE8B000AE750"
+            BuildableName = "ToyLibraryTests.xctest"
+            BlueprintName = "ToyLibraryTests iOS"
             ReferencedContainer = "container:ToyLibrary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -116,9 +88,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98D300541FE8D694000AE750"
-            BuildableName = "ToyLibrary.framework"
-            BlueprintName = "ToyLibrary iOS"
+            BlueprintIdentifier = "98D300BD1FE8DE8B000AE750"
+            BuildableName = "ToyLibraryTests.xctest"
+            BlueprintName = "ToyLibraryTests iOS"
             ReferencedContainer = "container:ToyLibrary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

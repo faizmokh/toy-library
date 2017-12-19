@@ -10,16 +10,53 @@
 		98D3009B1FE8D9FE000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D3009C1FE8D9FE000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D3009D1FE8D9FF000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D3009E1FE8D9FF000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D300A01FE8DBDC000AE750 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3009F1FE8DBDC000AE750 /* HelloWorld.swift */; };
+		98D300A11FE8DBDC000AE750 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3009F1FE8DBDC000AE750 /* HelloWorld.swift */; };
+		98D300A21FE8DBDC000AE750 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3009F1FE8DBDC000AE750 /* HelloWorld.swift */; };
+		98D300C31FE8DE8B000AE750 /* ToyLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D300551FE8D694000AE750 /* ToyLibrary.framework */; };
+		98D300D21FE8DEA6000AE750 /* ToyLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */; };
+		98D300EF1FE8DF37000AE750 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98D300EA1FE8DF37000AE750 /* Info.plist */; };
+		98D300F01FE8DF37000AE750 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98D300EA1FE8DF37000AE750 /* Info.plist */; };
+		98D300F11FE8DF37000AE750 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98D300EA1FE8DF37000AE750 /* Info.plist */; };
+		98D301081FE8E34A000AE750 /* ToyLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D300991FE8D9EE000AE750 /* ToyLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D301111FE8E4A6000AE750 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D301101FE8E4A6000AE750 /* MainTests.swift */; };
+		98D301121FE8E4A6000AE750 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D301101FE8E4A6000AE750 /* MainTests.swift */; };
+		98D301131FE8E4A6000AE750 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D301101FE8E4A6000AE750 /* MainTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D300C41FE8DE8B000AE750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D3004A1FE8D640000AE750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D300541FE8D694000AE750;
+			remoteInfo = "ToyLibrary iOS";
+		};
+		98D300D31FE8DEA6000AE750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D3004A1FE8D640000AE750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D3007C1FE8D6EA000AE750;
+			remoteInfo = "ToyLibrary tvOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		98D300551FE8D694000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D300631FE8D6AC000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D3008A1FE8D6FD000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D300991FE8D9EE000AE750 /* ToyLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToyLibrary.h; sourceTree = "<group>"; };
 		98D3009A1FE8D9EE000AE750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D3009F1FE8DBDC000AE750 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		98D300BE1FE8DE8B000AE750 /* ToyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D300CD1FE8DEA5000AE750 /* ToyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D300DC1FE8DEB4000AE750 /* ToyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D300EA1FE8DF37000AE750 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D301001FE8E30C000AE750 /* ToyLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToyLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D3010D1FE8E4A5000AE750 /* ToyLibraryTests iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToyLibraryTests iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		98D3010E1FE8E4A5000AE750 /* ToyLibraryTests tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToyLibraryTests tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		98D3010F1FE8E4A5000AE750 /* ToyLibraryTests macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToyLibraryTests macOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		98D301101FE8E4A6000AE750 /* MainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +81,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98D300861FE8D6FD000AE750 /* Frameworks */ = {
+		98D300BB1FE8DE8B000AE750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D300C31FE8DE8B000AE750 /* ToyLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300CA1FE8DEA5000AE750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D300D21FE8DEA6000AE750 /* ToyLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300D91FE8DEB4000AE750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300FC1FE8E30C000AE750 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				98D300961FE8D9EE000AE750 /* Sources */,
-				98D300951FE8D9EE000AE750 /* Tests */,
+				98D300E71FE8DF37000AE750 /* Tests */,
 				98D300561FE8D694000AE750 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,16 +129,12 @@
 				98D300551FE8D694000AE750 /* ToyLibrary.framework */,
 				98D300631FE8D6AC000AE750 /* ToyLibrary.framework */,
 				98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */,
-				98D3008A1FE8D6FD000AE750 /* ToyLibrary.framework */,
+				98D300BE1FE8DE8B000AE750 /* ToyLibraryTests.xctest */,
+				98D300CD1FE8DEA5000AE750 /* ToyLibraryTests.xctest */,
+				98D300DC1FE8DEB4000AE750 /* ToyLibraryTests.xctest */,
+				98D301001FE8E30C000AE750 /* ToyLibrary.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		98D300951FE8D9EE000AE750 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		98D300961FE8D9EE000AE750 /* Sources */ = {
@@ -93,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				98D300981FE8D9EE000AE750 /* Supporting Files */,
+				98D3009F1FE8DBDC000AE750 /* HelloWorld.swift */,
 			);
 			path = ToyLibrary;
 			sourceTree = "<group>";
@@ -104,6 +161,26 @@
 				98D3009A1FE8D9EE000AE750 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98D300E71FE8DF37000AE750 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				98D300E81FE8DF37000AE750 /* ToyLibraryTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		98D300E81FE8DF37000AE750 /* ToyLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D300EA1FE8DF37000AE750 /* Info.plist */,
+				98D301101FE8E4A6000AE750 /* MainTests.swift */,
+				98D3010D1FE8E4A5000AE750 /* ToyLibraryTests iOS-Bridging-Header.h */,
+				98D3010E1FE8E4A5000AE750 /* ToyLibraryTests tvOS-Bridging-Header.h */,
+				98D3010F1FE8E4A5000AE750 /* ToyLibraryTests macOS-Bridging-Header.h */,
+			);
+			path = ToyLibraryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +210,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98D300871FE8D6FD000AE750 /* Headers */ = {
+		98D300FD1FE8E30C000AE750 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D3009E1FE8D9FF000AE750 /* ToyLibrary.h in Headers */,
+				98D301081FE8E34A000AE750 /* ToyLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,14 +275,67 @@
 			productReference = 98D3007D1FE8D6EA000AE750 /* ToyLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		98D300891FE8D6FD000AE750 /* ToyLibrary macOS */ = {
+		98D300BD1FE8DE8B000AE750 /* ToyLibraryTests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98D3008F1FE8D6FD000AE750 /* Build configuration list for PBXNativeTarget "ToyLibrary macOS" */;
+			buildConfigurationList = 98D300C61FE8DE8B000AE750 /* Build configuration list for PBXNativeTarget "ToyLibraryTests iOS" */;
 			buildPhases = (
-				98D300851FE8D6FD000AE750 /* Sources */,
-				98D300861FE8D6FD000AE750 /* Frameworks */,
-				98D300871FE8D6FD000AE750 /* Headers */,
-				98D300881FE8D6FD000AE750 /* Resources */,
+				98D300BA1FE8DE8B000AE750 /* Sources */,
+				98D300BB1FE8DE8B000AE750 /* Frameworks */,
+				98D300BC1FE8DE8B000AE750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D300C51FE8DE8B000AE750 /* PBXTargetDependency */,
+			);
+			name = "ToyLibraryTests iOS";
+			productName = "ToyLibraryTests iOS";
+			productReference = 98D300BE1FE8DE8B000AE750 /* ToyLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D300CC1FE8DEA5000AE750 /* ToyLibraryTests tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D300D51FE8DEA6000AE750 /* Build configuration list for PBXNativeTarget "ToyLibraryTests tvOS" */;
+			buildPhases = (
+				98D300C91FE8DEA5000AE750 /* Sources */,
+				98D300CA1FE8DEA5000AE750 /* Frameworks */,
+				98D300CB1FE8DEA5000AE750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D300D41FE8DEA6000AE750 /* PBXTargetDependency */,
+			);
+			name = "ToyLibraryTests tvOS";
+			productName = "ToyLibraryTests tvOS";
+			productReference = 98D300CD1FE8DEA5000AE750 /* ToyLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D300DB1FE8DEB4000AE750 /* ToyLibraryTests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D300E41FE8DEB4000AE750 /* Build configuration list for PBXNativeTarget "ToyLibraryTests macOS" */;
+			buildPhases = (
+				98D300D81FE8DEB4000AE750 /* Sources */,
+				98D300D91FE8DEB4000AE750 /* Frameworks */,
+				98D300DA1FE8DEB4000AE750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToyLibraryTests macOS";
+			productName = "ToyLibraryTests macOS";
+			productReference = 98D300DC1FE8DEB4000AE750 /* ToyLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D300FF1FE8E30C000AE750 /* ToyLibrary macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D301051FE8E30C000AE750 /* Build configuration list for PBXNativeTarget "ToyLibrary macOS" */;
+			buildPhases = (
+				98D300FB1FE8E30C000AE750 /* Sources */,
+				98D300FC1FE8E30C000AE750 /* Frameworks */,
+				98D300FD1FE8E30C000AE750 /* Headers */,
+				98D300FE1FE8E30C000AE750 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -213,7 +343,7 @@
 			);
 			name = "ToyLibrary macOS";
 			productName = "ToyLibrary macOS";
-			productReference = 98D3008A1FE8D6FD000AE750 /* ToyLibrary.framework */;
+			productReference = 98D301001FE8E30C000AE750 /* ToyLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -222,21 +352,40 @@
 		98D3004A1FE8D640000AE750 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				TargetAttributes = {
 					98D300541FE8D694000AE750 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					98D300621FE8D6AC000AE750 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					98D3007C1FE8D6EA000AE750 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					98D300891FE8D6FD000AE750 = {
+					98D300BD1FE8DE8B000AE750 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					98D300CC1FE8DEA5000AE750 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					98D300DB1FE8DEB4000AE750 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					98D300FF1FE8E30C000AE750 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -257,7 +406,10 @@
 				98D300541FE8D694000AE750 /* ToyLibrary iOS */,
 				98D300621FE8D6AC000AE750 /* ToyLibrary watchOS */,
 				98D3007C1FE8D6EA000AE750 /* ToyLibrary tvOS */,
-				98D300891FE8D6FD000AE750 /* ToyLibrary macOS */,
+				98D300FF1FE8E30C000AE750 /* ToyLibrary macOS */,
+				98D300BD1FE8DE8B000AE750 /* ToyLibraryTests iOS */,
+				98D300CC1FE8DEA5000AE750 /* ToyLibraryTests tvOS */,
+				98D300DB1FE8DEB4000AE750 /* ToyLibraryTests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D300EF1FE8DF37000AE750 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D300F01FE8DF37000AE750 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +435,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D300F11FE8DF37000AE750 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98D300881FE8D6FD000AE750 /* Resources */ = {
+		98D300BC1FE8DE8B000AE750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300CB1FE8DEA5000AE750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300DA1FE8DEB4000AE750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300FE1FE8E30C000AE750 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D300A01FE8DBDC000AE750 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D300A11FE8DBDC000AE750 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,10 +490,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D300A21FE8DBDC000AE750 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98D300851FE8D6FD000AE750 /* Sources */ = {
+		98D300BA1FE8DE8B000AE750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D301111FE8E4A6000AE750 /* MainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300C91FE8DEA5000AE750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D301121FE8E4A6000AE750 /* MainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300D81FE8DEB4000AE750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D301131FE8E4A6000AE750 /* MainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D300FB1FE8E30C000AE750 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,6 +526,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D300C51FE8DE8B000AE750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D300541FE8D694000AE750 /* ToyLibrary iOS */;
+			targetProxy = 98D300C41FE8DE8B000AE750 /* PBXContainerItemProxy */;
+		};
+		98D300D41FE8DEA6000AE750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D3007C1FE8D6EA000AE750 /* ToyLibrary tvOS */;
+			targetProxy = 98D300D31FE8DEA6000AE750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		98D3004E1FE8D640000AE750 /* Debug */ = {
@@ -401,6 +617,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-iOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -468,6 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-iOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -541,6 +759,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-watchOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -608,6 +827,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-watchOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -682,6 +902,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-tvOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -749,6 +970,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-tvOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -762,7 +984,385 @@
 			};
 			name = Release;
 		};
-		98D300901FE8D6FD000AE750 /* Debug */ = {
+		98D300C71FE8DE8B000AE750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/ToyLibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibraryTests-iOS";
+				PRODUCT_NAME = ToyLibraryTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/ToyLibraryTests/ToyLibraryTests iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D300C81FE8DE8B000AE750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/ToyLibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibraryTests-iOS";
+				PRODUCT_NAME = ToyLibraryTests;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/ToyLibraryTests/ToyLibraryTests iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D300D61FE8DEA6000AE750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/ToyLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibraryTests-tvOS";
+				PRODUCT_NAME = ToyLibraryTests;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/ToyLibraryTests/ToyLibraryTests tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		98D300D71FE8DEA6000AE750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/ToyLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibraryTests-tvOS";
+				PRODUCT_NAME = ToyLibraryTests;
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/ToyLibraryTests/ToyLibraryTests tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D300E51FE8DEB4000AE750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/ToyLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibraryTests-macOS";
+				PRODUCT_NAME = ToyLibraryTests;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/ToyLibraryTests/ToyLibraryTests macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		98D300E61FE8DEB4000AE750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 96ZJY6AYCD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Tests/ToyLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibraryTests-macOS";
+				PRODUCT_NAME = ToyLibraryTests;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/ToyLibraryTests/ToyLibraryTests macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		98D301061FE8E30C000AE750 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -826,6 +1426,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-macOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -837,7 +1438,7 @@
 			};
 			name = Debug;
 		};
-		98D300911FE8D6FD000AE750 /* Release */ = {
+		98D301071FE8E30C000AE750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -894,6 +1495,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.faizmokhtar.ToyLibrary-macOS";
+				PRODUCT_MODULE_NAME = ToyLibrary;
 				PRODUCT_NAME = ToyLibrary;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -943,11 +1545,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98D3008F1FE8D6FD000AE750 /* Build configuration list for PBXNativeTarget "ToyLibrary macOS" */ = {
+		98D300C61FE8DE8B000AE750 /* Build configuration list for PBXNativeTarget "ToyLibraryTests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98D300901FE8D6FD000AE750 /* Debug */,
-				98D300911FE8D6FD000AE750 /* Release */,
+				98D300C71FE8DE8B000AE750 /* Debug */,
+				98D300C81FE8DE8B000AE750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D300D51FE8DEA6000AE750 /* Build configuration list for PBXNativeTarget "ToyLibraryTests tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D300D61FE8DEA6000AE750 /* Debug */,
+				98D300D71FE8DEA6000AE750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D300E41FE8DEB4000AE750 /* Build configuration list for PBXNativeTarget "ToyLibraryTests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D300E51FE8DEB4000AE750 /* Debug */,
+				98D300E61FE8DEB4000AE750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D301051FE8E30C000AE750 /* Build configuration list for PBXNativeTarget "ToyLibrary macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D301061FE8E30C000AE750 /* Debug */,
+				98D301071FE8E30C000AE750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
